@@ -3,13 +3,12 @@
 
 /**
  * main - main entry
+ * @argc: input count
+ * @argv: input array
  * Return: Always return 0 (success)
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	if (argc >= 1)
-	{
-		printf("%s/n", argv[0]);
-	}
+	printf("%s/n", argv[0]);
 	return (0);
 }
